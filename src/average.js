@@ -11,7 +11,7 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
-/* Neste exercício recebi ajuda do aluno Tiago Jerônimo Turma-19-C*/
+/* Neste exercício recebi ajuda do aluno Tiago Jerônimo Turma-19-C */
 
 const average = (value1) => {
   if (value1.length === 0) {
