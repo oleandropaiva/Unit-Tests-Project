@@ -11,14 +11,15 @@
     - average([1, 1]) // Retorno: 1;
     - average([1, '2']) // Retorno: undefined;
 */
+/* Neste exercício recebi ajuda do aluno Tiago Jerônimo Turma-19-C*/
 
-/* Neste exercício recebi ajuda do aluno Tiago Jerônimo */
 const average = (value1) => {
   if (value1.length === 0) {
   return (undefined);
 }
 
 let sum = 0;
+
 for (let index = 0; index < value1.length; index += 1) {
   const type = typeof value1[index];
   if (type !== 'number') {
@@ -29,4 +30,4 @@ const averageEnd = Math.round(sum / value1.length);
 return averageEnd;
 };
 
-exports = average;
+module.exports = average;
