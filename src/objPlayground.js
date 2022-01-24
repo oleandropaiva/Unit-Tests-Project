@@ -31,8 +31,12 @@
   arrayGenerator('keys', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ 'sum', 'mult', 'div', 'sub' ]
   arrayGenerator('values', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ 3, 2, 1, 0 ]
   arrayGenerator('entries', { sum: 3, mult: 2, div: 1, sub: 0 }) // [ [ 'sum', 3 ], [ 'mult', 2 ], [ 'div', 1 ], [ 'sub', 0 ] ]
+  
 */
 
+/* Neste exercicio fiz uma consulta no código da aluna Talita Afonso Tribo-19-C */
+/* O método Math.floor() arredonda um número PARA BAIXO para o inteiro mais próximo e retorna o resultado. */
+/* fonte: https://www.w3schools.com/jsref/jsref_floor.asp */
 const calculator = (number1, number2) => ({
 sum: number1 + number2,
 mult: number1 * number2,
